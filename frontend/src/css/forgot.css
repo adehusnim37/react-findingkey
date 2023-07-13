@@ -1,0 +1,100 @@
+.form-containerx {
+    max-width: 600px; /* Increased max width */
+    background-color: #fff;
+    padding: 42px 42px; /* Increased padding */
+    font-size: 14px;
+    font-family: inherit;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+}
+
+
+.form-containerx buttonx:active {
+    scale: 0.95;
+}
+
+.form-containerx .logo-containerx {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-containerx .formx {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-containerx .form-groupx {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-containerx .form-groupx label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-containerx .form-groupx input {
+    width: 90%;
+    padding: 12px 20px;
+    margin-right: 100px;
+    border-radius: 6px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+}
+
+.form-containerx .form-groupx input::placeholder {
+    opacity: 0.5;
+}
+
+.form-containerx .form-groupx input:focus {
+    outline: none;
+    border-color: #1778f2;
+}
+
+.form-containerx .form-submit-btnx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    color: #fff;
+    background-color: #212121;
+    border: none;
+    width: 105%;
+    padding: 12px 20px;
+    font-size: inherit;
+    gap: 8px;
+    margin: 12px 0;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+}
+
+.form-containerx .form-submit-btnx:hover {
+    background-color: #313131;
+}
+
+.form-containerx .linkx {
+    color: #1778f2;
+    text-decoration: none;
+}
+
+.form-containerx .signup-linkx {
+    align-self: center;
+    font-weight: 500;
+}
+
+.form-containerx .signup-linkx .linkx {
+    font-weight: 400;
+}
+
+.form-containerx .linkx:hover {
+    text-decoration: underline;
+}
+
